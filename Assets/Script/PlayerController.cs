@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     
     Rigidbody2D rgbd;
 
+    bool disableController = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,15 +26,21 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.LeftArrow)) {
+        if(!disableController) {
+            if(Input.GetKey(KeyCode.LeftArrow)) {
             rgbd.AddTorque(torque);
             // transform.Rotate(0, 0, torque);
+            }
+            else
+            if(Input.GetKey(KeyCode.RightArrow)) {
+                rgbd.AddTorque(-torque);
+                // transform.Rotate(0, 0, -torque);
+            }
         }
-        else
-        if(Input.GetKey(KeyCode.RightArrow)) {
-            rgbd.AddTorque(-torque);
-            // transform.Rotate(0, 0, -torque);
-        }
+    }
+
+    public void DisableController() {
+        disableController = true;
     }
 
     void OnTriggerEnter2D(Collider2D collision)

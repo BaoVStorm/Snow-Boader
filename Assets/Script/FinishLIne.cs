@@ -8,10 +8,12 @@ public class FinishLIne : MonoBehaviour
 {
     [SerializeField] ParticleSystem finishParticle;
 
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,9 @@ public class FinishLIne : MonoBehaviour
 
             if(finishParticle != null)
                 finishParticle.Play();
+
+            if(audioSource != null)
+                audioSource.Play();
 
             Invoke("finishGame", 0.5f);
         }
