@@ -88,4 +88,7 @@ Người dùng điều khiển người chơi lướt trên tuyết, và đến 
 
 ![image](https://github.com/user-attachments/assets/ce6aa8f0-7212-4447-aad7-ea83c6437119)
 
+![image](https://github.com/user-attachments/assets/b7d86c25-24c4-43ac-a869-08a7bf669c1e)
+
+
 
