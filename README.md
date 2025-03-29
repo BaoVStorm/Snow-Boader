@@ -1,4 +1,4 @@
-Tựa game này không phải là dự án thật sự, chỉ là dự án demo để học Unity từ **Undemy**.
+Tựa game này không phải là dự án thật sự, chỉ là dự án demo để học Unity từ **Udemy**.
 
 Khoá học trên undemy: **Complete C# Unity Game Developer 2D**
 
