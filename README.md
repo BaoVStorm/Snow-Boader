@@ -1,4 +1,4 @@
-Tựa game này không phải là dự án thật sự, chỉ là dự án demo để học Unity từ **Udemy**.
+Tựa game này là một dự án được làm trong quá trình học Unity từ **Udemy**.
 
 Khoá học trên undemy: **Complete C# Unity Game Developer 2D**
 
@@ -19,6 +19,34 @@ Người dùng điều khiển người chơi lướt trên tuyết, và đến 
 - **Engine:** Unity
 - **Prog Lang:** C#
 - **Asset:** FreePik, Photopea
+
+<br>
+
+# 📖 Những gì học được từ dự án
+
+- Kỹ thiết kế vẽ giao diện cho dự án
+   - Nhân vật
+   - Vật phẩm
+   - Môi trường
+
+- Kỹ năng lập trình, code logic rành mạch
+
+- Chuyển cảnh (load scene) và reset scene
+
+- Kỹ năng thực hiện với Rigidbody, collision
+   - Tương tác vật thể
+   - sự kiện khi đến đích
+   - Sử dụng vật phẩm
+
+- Xây dựng môi trường
+
+- Di chuyển nhân vật
+
+- Effect Particle System
+
+- Sound Effect
+ 
+<br>
 
 # 🕹️ Giao diện & GamePlay
 
